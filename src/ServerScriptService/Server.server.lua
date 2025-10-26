@@ -1,6 +1,1 @@
-print("Meow!")
-
-local a = ""
-if a == "Hello World" then
-    return
-end
+print("This is a test of the server side")
