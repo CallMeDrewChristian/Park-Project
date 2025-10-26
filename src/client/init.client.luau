@@ -1,1 +1,2 @@
-print("Hello world, from client!")
+warn("This is a test!")
+print("BNOO!")
