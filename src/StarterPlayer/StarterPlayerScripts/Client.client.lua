@@ -1,1 +1,3 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 print("Hello world, from client!")
+ReplicatedStorage.RemoteEvents.RemoteEvent:FireServer("Hello World")
