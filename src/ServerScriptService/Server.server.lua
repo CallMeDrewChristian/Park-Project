@@ -1,2 +1,3 @@
-print("This is a test of the server side")
-print("Meow!")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Cars = require(ReplicatedStorage.Shared.Cars)
+local Car = Cars:Init()
