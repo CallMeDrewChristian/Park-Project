@@ -1,6 +1,6 @@
-local Car = {}
-Car["Engine"] = false
-function Car:Init()
+local Cars = {}
+Cars["Engine"] = false
+function Cars:Init()
 	print("Initialized!")
 end
-return Car
+return Cars
