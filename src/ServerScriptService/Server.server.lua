@@ -1,6 +1,3 @@
-print("Meow!")
-
-local a = ""
-if a == "Hello World" then
-    return
-end
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Cars = require(ReplicatedStorage.Shared.Cars)
+local Car = Cars:Init()
