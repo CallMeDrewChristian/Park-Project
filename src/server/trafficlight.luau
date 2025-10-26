@@ -1,1 +1,0 @@
-print("Traffic Light Script")
